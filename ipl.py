@@ -7,7 +7,7 @@ import numpy as np
 import xgboost
 from xgboost import XGBRegressor
 
-pipe = pickle.load(open(r'pipe.pkl','rb'))
+pipe = pickle.load(open(r'pipb.pkl','rb'))
 
 
 teams=['Sunrisers Hyderabad',
