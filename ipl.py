@@ -1,10 +1,8 @@
-
 import streamlit as st
-
 import pickle
 import pandas as pd
 import numpy as np
-#import xgboost
+import xgboost
 from xgboost import XGBRegressor
 
 pipe = pickle.load(open(r'pipb.pkl','rb'))
