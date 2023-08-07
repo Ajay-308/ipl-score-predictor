@@ -5,7 +5,7 @@ import numpy as np
 
 
 
-pipe = pickle.load(open(r'bro.pkl','rb'))
+pipe = pickle.load(open(r'ipl.pkl','rb'))
 
 
 teams=['Sunrisers Hyderabad',
