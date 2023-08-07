@@ -3,9 +3,7 @@ import pickle
 import pandas as pd
 import numpy as np
 
-
-
-pipe = pickle.load(open(r'ipl.pkl','rb'))
+pipe = pickle.load(open(r'pipe.pkl','rb'))
 
 
 teams=['Sunrisers Hyderabad',
