@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 from lightgbm import LGBMRegressor
 
-pipe = pickle.load(open('ipl.pkl','rb'))
+pipe = pickle.load(open('st.pkl','rb'))
 
 
 teams=['Sunrisers Hyderabad',
