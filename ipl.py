@@ -2,7 +2,6 @@ import streamlit as st
 import pickle
 import pandas as pd
 import numpy as np
-from lightgbm import LGBMRegressor
 
 pipe = pickle.load(open('st.pkl','rb'))
 
